@@ -1,3 +1,5 @@
+import Feed from "@components/Feed";
+
 const Home = () => {
   return (
         <section className="w-full flex-center flex-col">
@@ -10,7 +12,7 @@ const Home = () => {
                 Blogopedia is an open-source library of AI generated blog posts for everyone to enjoy.
             </p>
 
-            {/* Feed */}
+            <Feed />
         </section>
   )
 }

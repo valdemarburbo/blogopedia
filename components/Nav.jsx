@@ -25,14 +25,14 @@ const Nav = () => {
         <nav className="flex-between w-full mb-16 pt-3">
             <Link href="/" className="flex gap-2 flex-center">
                 <Image 
-                    src="/assets/images/logo.svg"
+                    src="/assets/images/icons8-logo.svg"
                     alt="Blogopedia Logo"
-                    width={30}
-                    height={30}
-                    className="object-contain"
+                    width={45}
+                    height={45}
+                    className="object-contain fill-blue-500"
                 />
 
-                <p className="logo_text">Blogopedia</p>
+                <p className="text-2xl font-bold">BLOGOPEDIA</p>
             </Link>
 
             
@@ -42,7 +42,7 @@ const Nav = () => {
                     <div className="flex gap-3 md:gap-5">
                         <Link href="/create-prompt"
                         className="black_btn">
-                            Create Post
+                            Create a Post
                         </Link>
 
                         <button type="button" onClick={signOut} className="outline_btn">
@@ -102,7 +102,7 @@ const Nav = () => {
                                     className="dropdown_link"
                                     onClick={() => setToggleDropdown(false)}
                                 >
-                                    Create Prompt
+                                    Create a Post
                                 </Link>
                                 <button
                                     type="button"

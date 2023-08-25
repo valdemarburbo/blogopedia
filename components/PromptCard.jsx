@@ -51,7 +51,7 @@ const PromptCard = ({ post, handleEdit, handleDelete, handleTagClick }) => {
           </div>
         </div>
 
-        <div className='copy_btn' onClick={handleCopy}>
+        {/* <div className='copy_btn' onClick={handleCopy}>
           <Image
             src={
               copied === post.prompt
@@ -62,7 +62,7 @@ const PromptCard = ({ post, handleEdit, handleDelete, handleTagClick }) => {
             width={12}
             height={12}
           />
-        </div>
+        </div> */}
       </div>
 
       <p className='my-4 font-satoshi text-sm text-gray-700'>{post.prompt}</p>
